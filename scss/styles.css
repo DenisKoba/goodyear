@@ -636,12 +636,12 @@ input {
     margin: 0; }
     .descr-style:after {
       content: "";
-      width: 18px;
-      height: 19px;
+      width: 30px;
+      height: 30px;
       background-color: #0048ff;
       display: inline-block;
       position: absolute;
-      margin: 12px 0 0 10px; }
+      margin: 20px 0 0 15px; }
   .good-header {
     width: 100%; }
     .good-header__wrapper {
