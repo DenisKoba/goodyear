@@ -304,10 +304,10 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
 .good-fifth-section{
   width: 100%;
-  background-image: url("../src/img/goodyear-fifth-section-bg.png");
+  background-image: url(../src/img/goodyear-fifth-section-bg.png);
   background-position: center 25px;
   background-repeat: no-repeat;
-  background-color: #ffdf1b;
+  background-color: #ffe400;
 
   &__wrapper{
     width: 1000px;
@@ -334,28 +334,59 @@ input {-webkit-appearance: none; box-shadow: none !important; }
       display: block;
       margin: 100px 0 64px 0;
       float: left;
+      &:after{
+        content: "";
+        background-image: url(../src/img/video-descr.png);
+        width: 200px;
+        height: 100px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: 329px -13px;
+      }
 
       .example-image-style{
         display: inline-block;
-        width: 50%;
+        width: 380px;
         vertical-align: top;
-        height: 438px;
+        height: 380px;
         background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
-        float: left;
-        background-image: url(../src/img/goodyear-video.png);
         margin: 0 0 29px 0;
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+
       }
 
-      .goodyear-video{
+      .video-style{
         float: left;
-        background-image: url("../src/img/goodyear-video.png");
+        background-image: url("../src/img/goodyear-video.mp4");
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        height: 380px;
       }
 
       .goodyear-autumn{
         float: right;
-        background-image: url("../src/img/goodyear-autumn-weel.png");
-        background-position-y: -5px;
+        background-image: url("../src/img/goodyear-autumn-weel.gif");
+        &:after{
+          content: "";
+          background-image: url(../src/img/autumn-descr.png);
+          width: 250px;
+          height: 76px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 337px 0;
+          -webkit-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+          -moz-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+          box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        }
 
       }
 
@@ -383,30 +414,66 @@ input {-webkit-appearance: none; box-shadow: none !important; }
       .six-image-style{
         background-size: cover;
         display: inline-block;
-        width: 33%;
+        width: 310px;
         vertical-align: top;
-        height: 375px;
+        height: 302px;
         background-repeat: no-repeat;
         background-position: center;
         float: left;
-        background-image: url(../src/img/goodyear-video.png);
-        margin: 0 0 29px 0;
+        margin: 0 0 0 20px;
+        -webkit-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        -moz-box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
+        box-shadow: 0px 0px 21px 0px rgba(184,184,184,1);
       }
 
       .goodyear-winter{
         float: left;
-        background-image: url("../src/img/goodyear-winter.png");
+        background-image: url("../src/img/goodyear-winter.gif");
+        &:after{
+          content: "";
+          background-image: url(../src/img/winter-descr.png);
+          width: 322px;
+          height: 83px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 269px 0 0 -13px;
+        }
+
       }
 
       .goodyear-christmas{
-        background-image: url("../src/img/goodyear-christmas.png");
+        background-image: url("../src/img/goodyear-christmas.gif");
         background-position-y: -5px;
+        &:after{
+          content: "";
+          background-image: url(../src/img/christmas-descr.png);
+          width: 194px;
+          height: 82px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 269px 0 0 -13px;
+        }
 
       }
 
       .goodyear-five-weels{
-        background-image: url("../src/img/goodyear-five-weels.png");
+        background-image: url("../src/img/goodyear-five-weels.gif");
         background-position-y: -5px;
+        &:after{
+          content: "";
+          background-image: url(../src/img/five-weels-descr.png);
+          width: 322px;
+          height: 83px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 269px 0 0 -13px;
+        }
 
       }
 
@@ -415,7 +482,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
     &_second-row{
       width: 100%;
       display: block;
-      margin: 0;
+      margin: 40px 0;
       float: left;
 
       .six-image-style{
@@ -427,7 +494,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
         background-repeat: no-repeat;
         background-position: center;
         float: left;
-        background-image: url(../src/img/goodyear-video.png);
+        background-image: url(../src/img/goodyear-video.mp4);
         margin: 0 0 29px 0;
       }
 
@@ -453,17 +520,27 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   width: 100%;
   background-image: url(../src/img/goodyear-seventh-section-bg.png);
   background-position: center;
-  background-size: 134%;
   background-repeat: no-repeat;
-  background-color: #fff;
+  background-color: #ffdf1b;
 
   &__wrapper{
     width: 1000px;
     margin: auto;
     overflow: auto;
+    &:before{
+      content: "";
+      background-image: url(../src/img/goodyear-three-screens.png);
+      width: 554px;
+      height: 547px;
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      margin: 0 0 0 400px;
+    }
 
     &_comments-descr{
-      margin: 768px 0 40px 200px;
+      margin: 568px 0 40px 200px;
       padding: 160px 0 40px 40px;
       width: 740px;
       border-color: #ffdf1b;
@@ -546,6 +623,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
           width: 700px;
           display: inline-block;
           float: left;
+
           &:before{
             content: "";
             width: 700px;
@@ -575,6 +653,23 @@ input {-webkit-appearance: none; box-shadow: none !important; }
               background-image: url("../src/img/goodyear-avarage-growth.png");
               background-position: center;
               background-repeat: no-repeat;
+
+              .rise-chart-wrapper{
+                position: absolute;
+
+                  .rise-chart-two{
+                    width: 50px;
+                    height: 231px;
+                    display: block;
+                    position: absolute;
+                    background: #1e5eff;
+                    border-bottom: 8px solid #ffdf1b;
+                    top: 111px;
+                    left: 172px;
+                    transition: .3s;
+                    transform: rotate(180deg);
+                  }
+              }
             }
 
             &_engagement{
@@ -586,6 +681,23 @@ input {-webkit-appearance: none; box-shadow: none !important; }
               background-image: url("../src/img/goodyear-avarage-involvement.png");
               background-position: center;
               background-repeat: no-repeat;
+
+              .rise-chart-wrapper{
+                position: absolute;
+
+                .rise-chart-three{
+                  width: 50px;
+                  height: 231px;
+                  display: block;
+                  position: absolute;
+                  background: #1e5eff;
+                  border-bottom: 8px solid #ffdf1b;
+                  top: 111px;
+                  left: 172px;
+                  transition: .3s;
+                  transform: rotate(180deg);
+                }
+              }
             }
           }
         }
@@ -684,4 +796,563 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   }
 }
 
+/****************************************************************** Mobile Devices ****************************************************/
 
+@media screen and (max-width: 1100px) and (min-width: 600px) {
+  .heading-style {
+    font-size: 50px;
+    font-family: HelveticaNeue, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: #dcdcdc;
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .descr-style {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Proxima Nova, sans-serif;
+    padding: 10px;
+    border: 5px solid;
+    margin: 0;
+    &:after {
+      content: "";
+      width: 12px;
+      height: 12px;
+      background-color: #0048ff;
+      display: inline-block;
+      position: absolute;
+      margin: 5px 0 0 5px;
+    }
+  }
+  .good-header {
+    width: 100%;
+
+    &__wrapper {
+      width: 100%;
+    }
+  }
+
+  .good-second-section {
+    width: 100%;
+
+    &__wrapper {
+      width: 100%;
+
+      &_client-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+
+        &:after {
+          display: none;
+        }
+      }
+
+      &_client-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+      }
+
+      &_task-heading {
+        float: none;
+        margin: 0 0 20px 0;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      &_task-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #6e6e6e;
+      }
+    }
+  }
+
+  .good-third-section {
+    width: 100%;
+    background-image: url("../src/img/goodyear-third-section-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffdf1b;
+
+    &__wrapper {
+      width: 100%;
+      margin: auto;
+      overflow: auto;
+
+      &_situation-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #fff;
+
+        &:before {
+          content: "СИТУАЦИЯ";
+          font-size: 50px;
+          margin: -55px 0;
+        }
+      }
+
+      &_problem-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #fff;
+
+        &:before {
+          content: "ПРОБЛЕМА";
+          font-size: 50px;
+          margin: -55px 0;
+
+        }
+      }
+    }
+  }
+
+  .good-fourth-section {
+    width: 100%;
+
+    &__wrapper {
+      width: 100%;
+
+      &_idea-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+
+        &:after {
+          display: none;
+        }
+      }
+
+      &_idea-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+      }
+
+      &_realization-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+        float: none;
+      }
+
+      &_realization-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+        float: none;
+      }
+
+      &_block-with-icons {
+        width: 60%;
+        display: block;
+        margin: 40px auto;
+        float: none;
+
+        .icons-block {
+          width: 37%;
+          display: inline-block;
+          margin: 0 0 0 40px;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+
+  .good-fifth-section {
+    width: 100%;
+    background-image: none;
+
+    &__wrapper {
+      width: 100%;
+
+      &_example-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+      }
+
+      &_example-descr {
+        border-color: #fff;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+        float: none;
+      }
+
+      &_images {
+        width: 70%;
+        display: block;
+        margin: auto;
+        float: none;
+
+        &:after {
+          display: none;
+        }
+
+        .example-image-style {
+          display: inline-block;
+          width: 45%;
+          vertical-align: top;
+          height: 310px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          margin: 0 0 29px 0;
+          -webkit-box-shadow: 0px 0px 21px 0px #b8b8b8;
+          -moz-box-shadow: 0px 0px 21px 0px #b8b8b8;
+          box-shadow: 0px 0px 21px 0px #b8b8b8;
+        }
+
+        .video-style {
+          width: 45% !important;
+          height: 45%;
+        }
+
+        .goodyear-autumn {
+          &:after {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .good-sixth-section {
+    width: 100%;
+
+    &__wrapper {
+      width: 100%;
+
+      &_first-row {
+        width: 70%;
+        display: block;
+        margin: auto;
+        float: none;
+
+        .six-image-style {
+          width: 46%;
+          height: 301px;
+          float: none;
+          margin: 30px 10px;
+        }
+
+        .goodyear-winter {
+
+          &:after {
+          display: none;
+          }
+
+        }
+
+        .goodyear-christmas {
+
+          &:after {
+            display: none;
+          }
+
+        }
+
+        .goodyear-five-weels {
+          margin: auto;
+          display: block;
+
+          &:after {
+            display: none;
+          }
+
+        }
+
+      }
+      &_second-row{
+
+        .six-image-style{
+        }
+
+        .goodyear-kids{
+          display: none;
+        }
+
+        .goodyear-tips{
+         display: none;
+        }
+      }
+
+    }
+  }
+
+  .good-seventh-section{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+    &__wrapper{
+      width: 100%;
+
+      &:before{
+        display: none;
+      }
+
+      &_comments-descr{
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 200px auto;
+        color: #fff;
+
+        &:before{
+          content: "РАБОТА С КОММЕНТАРИЯМИ";
+          font-size: 50px;
+          margin: -104px 0;
+          line-height: 47px;
+        }
+      }
+    }
+  }
+
+  .good-stats-section{
+    width: 100%;
+
+    &__wrapper{
+      width: 1000px;
+
+      &_results-heading{
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+      }
+
+      &_results-descr{
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #6e6e6e;
+      }
+
+      &_stat-charts{
+        width: 80%;
+        display: block;
+        margin: auto;
+        overflow: hidden;
+
+        .wrapper-chart-one{
+          width: 40%;
+          height: 471px;
+          display: inline-block;
+          background-size: cover;
+          margin: 0 0 0 0;
+
+
+          .rise-chart-wrapper{
+            position: absolute;
+
+            .rise-chart-one{
+              width: 50px;
+              height: 231px;
+              display: block;
+              position: absolute;
+              background: #1e5eff;
+              border-bottom: 8px solid #ffdf1b;
+              top: 162px;
+              left: 153px;
+              transition: .3s;
+              transform: rotate(180deg);
+            }
+          }
+        }
+
+        .wrapper-chart-two{
+          width: 60%;
+          display: inline-block;
+          float: left;
+
+          &:before{
+            content: "";
+            width: 43%;
+            height: 223px;
+            margin: -41px 0;
+            background-image: url(../src/img/goodyear-er.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            background-size: cover;
+          }
+
+          &__er{
+            width: 70%;
+            height: 175px;
+          }
+
+          &__wrapper{
+            width: 75%;
+            height: 200px;
+
+            &_followers{
+              width: 50%;
+              height: 302px;
+              background-size: cover;
+
+              .rise-chart-wrapper{
+                position: absolute;
+
+                .rise-chart-two{
+                  width: 48px;
+                  height: 163px;
+                  display: block;
+                  position: absolute;
+                  background: #1e5eff;
+                  border-bottom: 8px solid #ffdf1b;
+                  top: 95px;
+                  left: 85px;
+                  transition: .3s;
+                  transform: rotate(180deg);
+                }
+              }
+            }
+
+            &_engagement{
+              width: 50%;
+              height: 303px;
+              background-size: cover;
+
+              .rise-chart-wrapper{
+                position: absolute;
+
+                .rise-chart-three{
+                  width: 44px;
+                  height: 180px;
+                  display: block;
+                  position: absolute;
+                  background: #1e5eff;
+                  border-bottom: 8px solid #ffdf1b;
+                  top: 79px;
+                  left: 91px;
+                  transition: .3s;
+                  transform: rotate(180deg);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .good-footer {
+    width: 100%;
+
+    &__wrapper {
+      width: 100%;
+
+      &_text {
+        font-size: 20px;
+        width: 65%;
+      }
+
+      @mixin transition-hvr($value, $t-type){
+        position: relative;
+        transition: all $value $t-type;
+        &:before,&:after{
+          content:'';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width:0;
+          height:0;
+          transition: width ($value - 0.5s) $value $t-type, height ($value - 0.5s) ($value - 0.25s) $t-type, border ($value - 0.7s) ($value + 0.25s) $t-type;
+          border: solid transparent;
+          border-width: 5px 5px 0 0;
+        }
+        &:after{
+          left: auto;
+          top: auto;
+          bottom: 0;
+          right: 0;
+          transition: width ($value - 0.5s) ($value - 0.5s) $t-type, height ($value - 0.5s) $t-type, border ($value - 0.7s) ($value - 0.25s) $t-type;
+          border-width: 0 0 5px 5px;
+        }
+        &:hover{
+          &:before,&:after{
+            transition: width ($value - 0.5s) $t-type, height ($value - 0.5s) ($value - 0.5s) $t-type, border ($value - 0.25s) $t-type;
+            width: 100%;
+            height: 92%;
+            border-color: #ffffff;
+          }
+          &:after{
+            transition: width ($value - 0.5s) ($value - 0.25s) $t-type, height ($value - 0.5s) $value  $t-type, border ($value - 0.7s) ($value - 0.25s) $t-type;
+          }
+        }
+      }
+      .button-wrapper{
+        margin: 0 auto;
+        max-width: 500px;
+        text-align: center;
+
+        .send-button{
+          border: 0;
+          background: #ffdf1b;
+          color: #4f4f4f;
+          padding: 20px 35px;
+          font-size:18px;
+          text-transform:uppercase;
+          cursor: pointer;
+          @include transition-hvr(.75s, ease);
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+
+      &_copyright{
+        display: block;
+        margin: auto;
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+  }
+
+}

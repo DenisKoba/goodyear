@@ -238,10 +238,10 @@ input {
 
 .good-fifth-section {
   width: 100%;
-  background-image: url("../src/img/goodyear-fifth-section-bg.png");
+  background-image: url(../src/img/goodyear-fifth-section-bg.png);
   background-position: center 25px;
   background-repeat: no-repeat;
-  background-color: #ffdf1b; }
+  background-color: #ffe400; }
   .good-fifth-section__wrapper {
     width: 1000px;
     margin: auto;
@@ -261,23 +261,51 @@ input {
       display: block;
       margin: 100px 0 64px 0;
       float: left; }
+      .good-fifth-section__wrapper_images:after {
+        content: "";
+        background-image: url(../src/img/video-descr.png);
+        width: 200px;
+        height: 100px;
+        display: block;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin: 329px -13px; }
       .good-fifth-section__wrapper_images .example-image-style {
         display: inline-block;
-        width: 50%;
+        width: 380px;
         vertical-align: top;
-        height: 438px;
+        height: 380px;
         background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
+        margin: 0 0 29px 0;
+        -webkit-box-shadow: 0px 0px 21px 0px #b8b8b8;
+        -moz-box-shadow: 0px 0px 21px 0px #b8b8b8;
+        box-shadow: 0px 0px 21px 0px #b8b8b8; }
+      .good-fifth-section__wrapper_images .video-style {
         float: left;
-        background-image: url(../src/img/goodyear-video.png);
-        margin: 0 0 29px 0; }
-      .good-fifth-section__wrapper_images .goodyear-video {
-        float: left;
-        background-image: url("../src/img/goodyear-video.png"); }
+        background-image: url("../src/img/goodyear-video.mp4");
+        -webkit-box-shadow: 0px 0px 21px 0px #b8b8b8;
+        -moz-box-shadow: 0px 0px 21px 0px #b8b8b8;
+        box-shadow: 0px 0px 21px 0px #b8b8b8;
+        height: 380px; }
       .good-fifth-section__wrapper_images .goodyear-autumn {
         float: right;
-        background-image: url("../src/img/goodyear-autumn-weel.png");
-        background-position-y: -5px; }
+        background-image: url("../src/img/goodyear-autumn-weel.gif"); }
+        .good-fifth-section__wrapper_images .goodyear-autumn:after {
+          content: "";
+          background-image: url(../src/img/autumn-descr.png);
+          width: 250px;
+          height: 76px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 337px 0;
+          -webkit-box-shadow: 0px 0px 21px 0px #b8b8b8;
+          -moz-box-shadow: 0px 0px 21px 0px #b8b8b8;
+          box-shadow: 0px 0px 21px 0px #b8b8b8; }
 
 .good-sixth-section {
   width: 100%;
@@ -296,27 +324,59 @@ input {
       .good-sixth-section__wrapper_first-row .six-image-style {
         background-size: cover;
         display: inline-block;
-        width: 33%;
+        width: 310px;
         vertical-align: top;
-        height: 375px;
+        height: 302px;
         background-repeat: no-repeat;
         background-position: center;
         float: left;
-        background-image: url(../src/img/goodyear-video.png);
-        margin: 0 0 29px 0; }
+        margin: 0 0 0 20px;
+        -webkit-box-shadow: 0px 0px 21px 0px #b8b8b8;
+        -moz-box-shadow: 0px 0px 21px 0px #b8b8b8;
+        box-shadow: 0px 0px 21px 0px #b8b8b8; }
       .good-sixth-section__wrapper_first-row .goodyear-winter {
         float: left;
-        background-image: url("../src/img/goodyear-winter.png"); }
+        background-image: url("../src/img/goodyear-winter.gif"); }
+        .good-sixth-section__wrapper_first-row .goodyear-winter:after {
+          content: "";
+          background-image: url(../src/img/winter-descr.png);
+          width: 322px;
+          height: 83px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 269px 0 0 -13px; }
       .good-sixth-section__wrapper_first-row .goodyear-christmas {
-        background-image: url("../src/img/goodyear-christmas.png");
+        background-image: url("../src/img/goodyear-christmas.gif");
         background-position-y: -5px; }
+        .good-sixth-section__wrapper_first-row .goodyear-christmas:after {
+          content: "";
+          background-image: url(../src/img/christmas-descr.png);
+          width: 194px;
+          height: 82px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 269px 0 0 -13px; }
       .good-sixth-section__wrapper_first-row .goodyear-five-weels {
-        background-image: url("../src/img/goodyear-five-weels.png");
+        background-image: url("../src/img/goodyear-five-weels.gif");
         background-position-y: -5px; }
+        .good-sixth-section__wrapper_first-row .goodyear-five-weels:after {
+          content: "";
+          background-image: url(../src/img/five-weels-descr.png);
+          width: 322px;
+          height: 83px;
+          display: block;
+          background-size: cover;
+          background-repeat: no-repeat;
+          position: absolute;
+          margin: 269px 0 0 -13px; }
     .good-sixth-section__wrapper_second-row {
       width: 100%;
       display: block;
-      margin: 0;
+      margin: 40px 0;
       float: left; }
       .good-sixth-section__wrapper_second-row .six-image-style {
         background-size: cover;
@@ -327,7 +387,7 @@ input {
         background-repeat: no-repeat;
         background-position: center;
         float: left;
-        background-image: url(../src/img/goodyear-video.png);
+        background-image: url(../src/img/goodyear-video.mp4);
         margin: 0 0 29px 0; }
       .good-sixth-section__wrapper_second-row .goodyear-kids {
         float: left;
@@ -344,15 +404,24 @@ input {
   width: 100%;
   background-image: url(../src/img/goodyear-seventh-section-bg.png);
   background-position: center;
-  background-size: 134%;
   background-repeat: no-repeat;
-  background-color: #fff; }
+  background-color: #ffdf1b; }
   .good-seventh-section__wrapper {
     width: 1000px;
     margin: auto;
     overflow: auto; }
+    .good-seventh-section__wrapper:before {
+      content: "";
+      background-image: url(../src/img/goodyear-three-screens.png);
+      width: 554px;
+      height: 547px;
+      display: block;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: absolute;
+      margin: 0 0 0 400px; }
     .good-seventh-section__wrapper_comments-descr {
-      margin: 768px 0 40px 200px;
+      margin: 568px 0 40px 200px;
       padding: 160px 0 40px 40px;
       width: 740px;
       border-color: #ffdf1b;
@@ -441,6 +510,19 @@ input {
             background-image: url("../src/img/goodyear-avarage-growth.png");
             background-position: center;
             background-repeat: no-repeat; }
+            .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_followers .rise-chart-wrapper {
+              position: absolute; }
+              .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_followers .rise-chart-wrapper .rise-chart-two {
+                width: 50px;
+                height: 231px;
+                display: block;
+                position: absolute;
+                background: #1e5eff;
+                border-bottom: 8px solid #ffdf1b;
+                top: 111px;
+                left: 172px;
+                transition: .3s;
+                transform: rotate(180deg); }
           .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_engagement {
             width: 50%;
             height: 395px;
@@ -450,6 +532,19 @@ input {
             background-image: url("../src/img/goodyear-avarage-involvement.png");
             background-position: center;
             background-repeat: no-repeat; }
+            .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_engagement .rise-chart-wrapper {
+              position: absolute; }
+              .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_engagement .rise-chart-wrapper .rise-chart-three {
+                width: 50px;
+                height: 231px;
+                display: block;
+                position: absolute;
+                background: #1e5eff;
+                border-bottom: 8px solid #ffdf1b;
+                top: 111px;
+                left: 172px;
+                transition: .3s;
+                transform: rotate(180deg); }
 
 .good-footer {
   width: 100%;
@@ -520,3 +615,394 @@ input {
       font-family: Proxima Nova, sans-serif;
       color: #bbbbbb;
       margin: 0; }
+
+/****************************************************************** Mobile Devices ****************************************************/
+@media screen and (max-width: 1100px) and (min-width: 600px) {
+  .heading-style {
+    font-size: 50px;
+    font-family: HelveticaNeue, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    color: #dcdcdc;
+    display: block;
+    margin: 50px auto;
+    text-align: center; }
+
+  .descr-style {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Proxima Nova, sans-serif;
+    padding: 10px;
+    border: 5px solid;
+    margin: 0; }
+    .descr-style:after {
+      content: "";
+      width: 12px;
+      height: 12px;
+      background-color: #0048ff;
+      display: inline-block;
+      position: absolute;
+      margin: 5px 0 0 5px; }
+
+  .good-header {
+    width: 100%; }
+    .good-header__wrapper {
+      width: 100%; }
+
+  .good-second-section {
+    width: 100%; }
+    .good-second-section__wrapper {
+      width: 100%; }
+      .good-second-section__wrapper_client-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center; }
+        .good-second-section__wrapper_client-heading:after {
+          display: none; }
+      .good-second-section__wrapper_client-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center; }
+      .good-second-section__wrapper_task-heading {
+        float: none;
+        margin: 0 0 20px 0; }
+        .good-second-section__wrapper_task-heading:before {
+          display: none; }
+      .good-second-section__wrapper_task-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #6e6e6e; }
+
+  .good-third-section {
+    width: 100%;
+    background-image: url("../src/img/goodyear-third-section-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffdf1b; }
+    .good-third-section__wrapper {
+      width: 100%;
+      margin: auto;
+      overflow: auto; }
+      .good-third-section__wrapper_situation-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #fff; }
+        .good-third-section__wrapper_situation-descr:before {
+          content: "СИТУАЦИЯ";
+          font-size: 50px;
+          margin: -55px 0; }
+      .good-third-section__wrapper_problem-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #fff; }
+        .good-third-section__wrapper_problem-descr:before {
+          content: "ПРОБЛЕМА";
+          font-size: 50px;
+          margin: -55px 0; }
+
+  .good-fourth-section {
+    width: 100%; }
+    .good-fourth-section__wrapper {
+      width: 100%; }
+      .good-fourth-section__wrapper_idea-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center; }
+        .good-fourth-section__wrapper_idea-heading:after {
+          display: none; }
+      .good-fourth-section__wrapper_idea-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center; }
+      .good-fourth-section__wrapper_realization-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+        float: none; }
+      .good-fourth-section__wrapper_realization-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+        float: none; }
+      .good-fourth-section__wrapper_block-with-icons {
+        width: 60%;
+        display: block;
+        margin: 40px auto;
+        float: none; }
+        .good-fourth-section__wrapper_block-with-icons .icons-block {
+          width: 37%;
+          display: inline-block;
+          margin: 0 0 0 40px;
+          vertical-align: top; }
+
+  .good-fifth-section {
+    width: 100%;
+    background-image: none; }
+    .good-fifth-section__wrapper {
+      width: 100%; }
+      .good-fifth-section__wrapper_example-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center; }
+      .good-fifth-section__wrapper_example-descr {
+        border-color: #fff;
+        width: 50%;
+        padding: 20px;
+        color: #6e6e6e;
+        display: block;
+        margin: 50px auto;
+        text-align: center;
+        float: none; }
+      .good-fifth-section__wrapper_images {
+        width: 70%;
+        display: block;
+        margin: auto;
+        float: none; }
+        .good-fifth-section__wrapper_images:after {
+          display: none; }
+        .good-fifth-section__wrapper_images .example-image-style {
+          display: inline-block;
+          width: 45%;
+          vertical-align: top;
+          height: 310px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          margin: 0 0 29px 0;
+          -webkit-box-shadow: 0px 0px 21px 0px #b8b8b8;
+          -moz-box-shadow: 0px 0px 21px 0px #b8b8b8;
+          box-shadow: 0px 0px 21px 0px #b8b8b8; }
+        .good-fifth-section__wrapper_images .video-style {
+          width: 45% !important;
+          height: 45%; }
+        .good-fifth-section__wrapper_images .goodyear-autumn:after {
+          display: none; }
+
+  .good-sixth-section {
+    width: 100%; }
+    .good-sixth-section__wrapper {
+      width: 100%; }
+      .good-sixth-section__wrapper_first-row {
+        width: 70%;
+        display: block;
+        margin: auto;
+        float: none; }
+        .good-sixth-section__wrapper_first-row .six-image-style {
+          width: 46%;
+          height: 301px;
+          float: none;
+          margin: 30px 10px; }
+        .good-sixth-section__wrapper_first-row .goodyear-winter:after {
+          display: none; }
+        .good-sixth-section__wrapper_first-row .goodyear-christmas:after {
+          display: none; }
+        .good-sixth-section__wrapper_first-row .goodyear-five-weels {
+          margin: auto;
+          display: block; }
+          .good-sixth-section__wrapper_first-row .goodyear-five-weels:after {
+            display: none; }
+      .good-sixth-section__wrapper_second-row .goodyear-kids {
+        display: none; }
+      .good-sixth-section__wrapper_second-row .goodyear-tips {
+        display: none; }
+
+  .good-seventh-section {
+    width: 100%;
+    background-position: center;
+    background-size: cover; }
+    .good-seventh-section__wrapper {
+      width: 100%; }
+      .good-seventh-section__wrapper:before {
+        display: none; }
+      .good-seventh-section__wrapper_comments-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 200px auto;
+        color: #fff; }
+        .good-seventh-section__wrapper_comments-descr:before {
+          content: "РАБОТА С КОММЕНТАРИЯМИ";
+          font-size: 50px;
+          margin: -104px 0;
+          line-height: 47px; }
+
+  .good-stats-section {
+    width: 100%; }
+    .good-stats-section__wrapper {
+      width: 1000px; }
+      .good-stats-section__wrapper_results-heading {
+        display: block;
+        margin: 50px auto;
+        text-align: center; }
+      .good-stats-section__wrapper_results-descr {
+        border-color: #ffdf1b;
+        width: 50%;
+        padding: 20px;
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 50px auto;
+        color: #6e6e6e; }
+      .good-stats-section__wrapper_stat-charts {
+        width: 80%;
+        display: block;
+        margin: auto;
+        overflow: hidden; }
+        .good-stats-section__wrapper_stat-charts .wrapper-chart-one {
+          width: 40%;
+          height: 471px;
+          display: inline-block;
+          background-size: cover;
+          margin: 0 0 0 0; }
+          .good-stats-section__wrapper_stat-charts .wrapper-chart-one .rise-chart-wrapper {
+            position: absolute; }
+            .good-stats-section__wrapper_stat-charts .wrapper-chart-one .rise-chart-wrapper .rise-chart-one {
+              width: 50px;
+              height: 231px;
+              display: block;
+              position: absolute;
+              background: #1e5eff;
+              border-bottom: 8px solid #ffdf1b;
+              top: 162px;
+              left: 153px;
+              transition: .3s;
+              transform: rotate(180deg); }
+        .good-stats-section__wrapper_stat-charts .wrapper-chart-two {
+          width: 60%;
+          display: inline-block;
+          float: left; }
+          .good-stats-section__wrapper_stat-charts .wrapper-chart-two:before {
+            content: "";
+            width: 43%;
+            height: 223px;
+            margin: -41px 0;
+            background-image: url(../src/img/goodyear-er.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            background-size: cover; }
+          .good-stats-section__wrapper_stat-charts .wrapper-chart-two__er {
+            width: 70%;
+            height: 175px; }
+          .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper {
+            width: 75%;
+            height: 200px; }
+            .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_followers {
+              width: 50%;
+              height: 302px;
+              background-size: cover; }
+              .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_followers .rise-chart-wrapper {
+                position: absolute; }
+                .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_followers .rise-chart-wrapper .rise-chart-two {
+                  width: 48px;
+                  height: 163px;
+                  display: block;
+                  position: absolute;
+                  background: #1e5eff;
+                  border-bottom: 8px solid #ffdf1b;
+                  top: 95px;
+                  left: 85px;
+                  transition: .3s;
+                  transform: rotate(180deg); }
+            .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_engagement {
+              width: 50%;
+              height: 303px;
+              background-size: cover; }
+              .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_engagement .rise-chart-wrapper {
+                position: absolute; }
+                .good-stats-section__wrapper_stat-charts .wrapper-chart-two__wrapper_engagement .rise-chart-wrapper .rise-chart-three {
+                  width: 44px;
+                  height: 180px;
+                  display: block;
+                  position: absolute;
+                  background: #1e5eff;
+                  border-bottom: 8px solid #ffdf1b;
+                  top: 79px;
+                  left: 91px;
+                  transition: .3s;
+                  transform: rotate(180deg); }
+
+  .good-footer {
+    width: 100%; }
+    .good-footer__wrapper {
+      width: 100%; }
+      .good-footer__wrapper_text {
+        font-size: 20px;
+        width: 65%; }
+      .good-footer__wrapper .button-wrapper {
+        margin: 0 auto;
+        max-width: 500px;
+        text-align: center; }
+        .good-footer__wrapper .button-wrapper .send-button {
+          border: 0;
+          background: #ffdf1b;
+          color: #4f4f4f;
+          padding: 20px 35px;
+          font-size: 18px;
+          text-transform: uppercase;
+          cursor: pointer;
+          position: relative;
+          transition: all 0.75s ease; }
+          .good-footer__wrapper .button-wrapper .send-button:before, .good-footer__wrapper .button-wrapper .send-button:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 0;
+            height: 0;
+            transition: width 0.25s 0.75s ease, height 0.25s 0.5s ease, border 0.05s 1s ease;
+            border: solid transparent;
+            border-width: 5px 5px 0 0; }
+          .good-footer__wrapper .button-wrapper .send-button:after {
+            left: auto;
+            top: auto;
+            bottom: 0;
+            right: 0;
+            transition: width 0.25s 0.25s ease, height 0.25s ease, border 0.05s 0.5s ease;
+            border-width: 0 0 5px 5px; }
+          .good-footer__wrapper .button-wrapper .send-button:hover:before, .good-footer__wrapper .button-wrapper .send-button:hover:after {
+            transition: width 0.25s ease, height 0.25s 0.25s ease, border 0.5s ease;
+            width: 100%;
+            height: 92%;
+            border-color: #ffffff; }
+          .good-footer__wrapper .button-wrapper .send-button:hover:after {
+            transition: width 0.25s 0.5s ease, height 0.25s 0.75s ease, border 0.05s 0.5s ease; }
+          .good-footer__wrapper .button-wrapper .send-button:focus {
+            outline: none; }
+      .good-footer__wrapper_copyright {
+        display: block;
+        margin: auto;
+        font-size: 10px;
+        text-align: center; } }
+
+/*# sourceMappingURL=styles.css.map */

@@ -95,7 +95,9 @@
         <p class="good-fifth-section__wrapper_example-descr descr-style">Чтобы повышать органическую выдачу в ленте новостей, мы максимально использовали
             интерактивные визуальные форматы: видео, слайдшоу, анимации и панорамы</p>
         <div class="good-fifth-section__wrapper_images">
-            <div class="goodyear-video example-image-style"></div>
+            <video class="video-style" width="380" autoplay loop>
+                <source src="src/img/goodyear-video.mp4" type="video/mp4">
+            </video>
             <div class="goodyear-autumn example-image-style"></div>
         </div>
     </div>
@@ -137,14 +139,22 @@
             <div class="wrapper-chart-two">
                 <div class="wrapper-chart-two__er"></div>
                 <div class="wrapper-chart-two__wrapper">
-                    <div class="wrapper-chart-two__wrapper_followers"></div>
-                    <div class="wrapper-chart-two__wrapper_engagement"></div>
+                    <div class="wrapper-chart-two__wrapper_followers">
+                            <span class="rise-chart-wrapper">
+                                <span class="rise-chart-two"></span>
+                            </span>
+                    </div>
+                    <div class="wrapper-chart-two__wrapper_engagement">
+                            <span class="rise-chart-wrapper">
+                                <span class="rise-chart-three"></span>
+                            </span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<header class="good-footer">
+<footer class="good-footer">
     <div class="good-footer__wrapper">
         <p class="good-footer__wrapper_text">
             Если вы хотите работать с нами,
@@ -153,11 +163,11 @@
             <br><br>hello@sigmadigital.com.ua
         </p>
         <div class="button-wrapper">
-            <button class="send-button">ОТПРАВИТЬ</button>
+            <a href="mailto:hello@sigmadigital.com.ua" target="_top"><button class="send-button">ОТПРАВИТЬ</button></a>
         </div>
         <p class='good-footer__wrapper_copyright'>© Copyright 2017. All rights fully reserved.</p>
     </div>
-</header>
+</footer>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
