@@ -798,7 +798,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
 /****************************************************************** Mobile Devices ****************************************************/
 
-@media screen and (max-width: 1100px) and (min-width: 600px) {
+@media screen and (max-width: 1200px) and (min-width: 600px) {
   .heading-style {
     font-size: 50px;
     font-family: HelveticaNeue, sans-serif;
@@ -811,7 +811,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   }
 
   .descr-style {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 200;
     font-family: Proxima Nova, sans-serif;
     padding: 10px;
@@ -819,12 +819,12 @@ input {-webkit-appearance: none; box-shadow: none !important; }
     margin: 0;
     &:after {
       content: "";
-      width: 12px;
-      height: 12px;
+      width: 18px;
+      height: 19px;
       background-color: #0048ff;
       display: inline-block;
       position: absolute;
-      margin: 5px 0 0 5px;
+      margin: 12px 0 0 10px;
     }
   }
   .good-header {
@@ -853,7 +853,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_client-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -872,7 +872,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_task-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -897,7 +897,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_situation-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -907,14 +907,14 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
         &:before {
           content: "СИТУАЦИЯ";
-          font-size: 50px;
+          font-size: 50px !important;
           margin: -55px 0;
         }
       }
 
       &_problem-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -924,7 +924,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
         &:before {
           content: "ПРОБЛЕМА";
-          font-size: 50px;
+          font-size: 50px !important;
           margin: -55px 0;
 
         }
@@ -950,7 +950,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_idea-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -967,7 +967,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_realization-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -1007,7 +1007,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_example-descr {
         border-color: #fff;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -1131,7 +1131,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_comments-descr{
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -1153,7 +1153,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
     width: 100%;
 
     &__wrapper{
-      width: 1000px;
+      width: 100%;
 
       &_results-heading{
         display: block;
@@ -1163,7 +1163,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
       &_results-descr{
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -1356,3 +1356,4 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   }
 
 }
+
