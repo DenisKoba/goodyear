@@ -627,7 +627,6 @@ input {
     display: block;
     margin: 50px auto;
     text-align: center; }
-
   .descr-style {
     font-size: 16px;
     font-weight: 200;
@@ -643,12 +642,10 @@ input {
       display: inline-block;
       position: absolute;
       margin: 5px 0 0 5px; }
-
   .good-header {
     width: 100%; }
     .good-header__wrapper {
       width: 100%; }
-
   .good-second-section {
     width: 100%; }
     .good-second-section__wrapper {
@@ -681,7 +678,6 @@ input {
         display: block;
         margin: 50px auto;
         color: #6e6e6e; }
-
   .good-third-section {
     width: 100%;
     background-image: url("../src/img/goodyear-third-section-bg.png");
@@ -718,7 +714,6 @@ input {
           content: "ПРОБЛЕМА";
           font-size: 50px;
           margin: -55px 0; }
-
   .good-fourth-section {
     width: 100%; }
     .good-fourth-section__wrapper {
@@ -761,7 +756,6 @@ input {
           display: inline-block;
           margin: 0 0 0 40px;
           vertical-align: top; }
-
   .good-fifth-section {
     width: 100%;
     background-image: none; }
@@ -804,7 +798,6 @@ input {
           height: 45%; }
         .good-fifth-section__wrapper_images .goodyear-autumn:after {
           display: none; }
-
   .good-sixth-section {
     width: 100%; }
     .good-sixth-section__wrapper {
@@ -832,7 +825,6 @@ input {
         display: none; }
       .good-sixth-section__wrapper_second-row .goodyear-tips {
         display: none; }
-
   .good-seventh-section {
     width: 100%;
     background-position: center;
@@ -855,7 +847,6 @@ input {
           font-size: 50px;
           margin: -104px 0;
           line-height: 47px; }
-
   .good-stats-section {
     width: 100%; }
     .good-stats-section__wrapper {
@@ -951,7 +942,6 @@ input {
                   left: 91px;
                   transition: .3s;
                   transform: rotate(180deg); }
-
   .good-footer {
     width: 100%; }
     .good-footer__wrapper {
@@ -1004,5 +994,3 @@ input {
         margin: auto;
         font-size: 10px;
         text-align: center; } }
-
-/*# sourceMappingURL=styles.css.map */
