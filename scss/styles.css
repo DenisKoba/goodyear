@@ -617,7 +617,7 @@ input {
       margin: 0; }
 
 /****************************************************************** Mobile Devices ****************************************************/
-@media screen and (max-width: 1100px) and (min-width: 600px) {
+@media screen and (max-width: 1200px) and (min-width: 600px) {
   .heading-style {
     font-size: 50px;
     font-family: HelveticaNeue, sans-serif;
@@ -628,7 +628,7 @@ input {
     margin: 50px auto;
     text-align: center; }
   .descr-style {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 200;
     font-family: Proxima Nova, sans-serif;
     padding: 10px;
@@ -636,12 +636,12 @@ input {
     margin: 0; }
     .descr-style:after {
       content: "";
-      width: 12px;
-      height: 12px;
+      width: 18px;
+      height: 19px;
       background-color: #0048ff;
       display: inline-block;
       position: absolute;
-      margin: 5px 0 0 5px; }
+      margin: 12px 0 0 10px; }
   .good-header {
     width: 100%; }
     .good-header__wrapper {
@@ -658,7 +658,7 @@ input {
           display: none; }
       .good-second-section__wrapper_client-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -671,7 +671,7 @@ input {
           display: none; }
       .good-second-section__wrapper_task-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -690,7 +690,7 @@ input {
       overflow: auto; }
       .good-third-section__wrapper_situation-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -699,11 +699,11 @@ input {
         color: #fff; }
         .good-third-section__wrapper_situation-descr:before {
           content: "СИТУАЦИЯ";
-          font-size: 50px;
+          font-size: 50px !important;
           margin: -55px 0; }
       .good-third-section__wrapper_problem-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -712,7 +712,7 @@ input {
         color: #fff; }
         .good-third-section__wrapper_problem-descr:before {
           content: "ПРОБЛЕМА";
-          font-size: 50px;
+          font-size: 50px !important;
           margin: -55px 0; }
   .good-fourth-section {
     width: 100%; }
@@ -726,7 +726,7 @@ input {
           display: none; }
       .good-fourth-section__wrapper_idea-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -739,7 +739,7 @@ input {
         float: none; }
       .good-fourth-section__wrapper_realization-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -767,7 +767,7 @@ input {
         text-align: center; }
       .good-fifth-section__wrapper_example-descr {
         border-color: #fff;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         color: #6e6e6e;
         display: block;
@@ -835,7 +835,7 @@ input {
         display: none; }
       .good-seventh-section__wrapper_comments-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
@@ -850,14 +850,14 @@ input {
   .good-stats-section {
     width: 100%; }
     .good-stats-section__wrapper {
-      width: 1000px; }
+      width: 100%; }
       .good-stats-section__wrapper_results-heading {
         display: block;
         margin: 50px auto;
         text-align: center; }
       .good-stats-section__wrapper_results-descr {
         border-color: #ffdf1b;
-        width: 50%;
+        width: 70%;
         padding: 20px;
         text-align: center;
         float: none;
