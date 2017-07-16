@@ -811,7 +811,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   }
 
   .descr-style {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 200;
     font-family: Proxima Nova, sans-serif;
     padding: 10px;
@@ -987,6 +987,26 @@ input {-webkit-appearance: none; box-shadow: none !important; }
           display: inline-block;
           margin: 0 0 0 40px;
           vertical-align: top;
+
+          &__icon-heading{
+            display: block;
+            margin: 10px auto;
+            font-size: 25px;
+            font-family: Proxima Nova,sans-serif;
+            color: #6e6e6e;
+            font-weight: 300;
+            text-align: center;
+          }
+
+          &__icon-descr{
+            text-align: center;
+            display: block;
+            margin: auto;
+            font-size: 16px;
+            font-family: Proxima Nova,sans-serif;
+            color: #6e6e6e;
+            font-weight: 200;
+          }
         }
       }
     }
@@ -1003,6 +1023,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
         display: block;
         margin: 50px auto;
         text-align: center;
+        color: #fff;
       }
 
       &_example-descr {
@@ -1138,6 +1159,8 @@ input {-webkit-appearance: none; box-shadow: none !important; }
         display: block;
         margin: 200px auto;
         color: #fff;
+        background: rgba(0, 0, 0, 0.47);
+
 
         &:before{
           content: "РАБОТА С КОММЕНТАРИЯМИ";
@@ -1283,6 +1306,12 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 
   .good-footer {
     width: 100%;
+    display: block;
+    background-image: url(../src/img/goodyear-footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffdf1b;
+    background-size: cover;
 
     &__wrapper {
       width: 100%;
