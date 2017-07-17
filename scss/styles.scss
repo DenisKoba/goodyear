@@ -6,7 +6,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 :-webkit-autofill { color: #fff !important; }
 
 .heading-style{
-  font-size: 100px;
+  font-size: 90px;
   font-family: HelveticaNeue, sans-serif;
   font-style: italic;
   font-weight: 900;
@@ -38,6 +38,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   background-color: #ffdf1b;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: auto 100%;
 
   &__wrapper{
     width: 1000px;
@@ -82,6 +83,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   background-image: url("../src/img/good-year-weel-print.png");
   background-position: center 400px;
   background-repeat: no-repeat;
+
 
   &__wrapper{
     width: 1000px;
@@ -144,6 +146,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   background-position: center;
   background-repeat: no-repeat;
   background-color: #ffdf1b;
+  background-size: auto 100%;
 
   &__wrapper{
     width: 1000px;
@@ -305,9 +308,10 @@ input {-webkit-appearance: none; box-shadow: none !important; }
 .good-fifth-section{
   width: 100%;
   background-image: url(../src/img/goodyear-fifth-section-bg.png);
-  background-position: center 25px;
+  background-position: center;
   background-repeat: no-repeat;
   background-color: #ffe400;
+  background-size: auto 100%;
 
   &__wrapper{
     width: 1000px;
@@ -522,6 +526,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   background-position: center;
   background-repeat: no-repeat;
   background-color: #ffdf1b;
+  background-size: auto 100%;
 
   &__wrapper{
     width: 1000px;
@@ -540,7 +545,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
     }
 
     &_comments-descr{
-      margin: 568px 0 40px 200px;
+      margin: 568px 0 40px 50px;
       padding: 160px 0 40px 40px;
       width: 740px;
       border-color: #ffdf1b;
@@ -712,6 +717,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffdf1b;
+  background-size: auto 100%;
 
   &__wrapper {
     width: 1000px;
