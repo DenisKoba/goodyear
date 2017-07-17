@@ -10,7 +10,7 @@ input {
   color: #fff !important; }
 
 .heading-style {
-  font-size: 100px;
+  font-size: 90px;
   font-family: HelveticaNeue, sans-serif;
   font-style: italic;
   font-weight: 900;
@@ -38,7 +38,8 @@ input {
   background-image: url("../src/img/goodyear-header-bg.png");
   background-color: #ffdf1b;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: auto 100%; }
   .good-header__wrapper {
     width: 1000px;
     margin: auto;
@@ -120,7 +121,8 @@ input {
   background-image: url("../src/img/goodyear-third-section-bg.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #ffdf1b; }
+  background-color: #ffdf1b;
+  background-size: auto 100%; }
   .good-third-section__wrapper {
     width: 1000px;
     margin: auto;
@@ -239,9 +241,10 @@ input {
 .good-fifth-section {
   width: 100%;
   background-image: url(../src/img/goodyear-fifth-section-bg.png);
-  background-position: center 25px;
+  background-position: center;
   background-repeat: no-repeat;
-  background-color: #ffe400; }
+  background-color: #ffe400;
+  background-size: auto 100%; }
   .good-fifth-section__wrapper {
     width: 1000px;
     margin: auto;
@@ -405,7 +408,8 @@ input {
   background-image: url(../src/img/goodyear-seventh-section-bg.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #ffdf1b; }
+  background-color: #ffdf1b;
+  background-size: auto 100%; }
   .good-seventh-section__wrapper {
     width: 1000px;
     margin: auto;
@@ -421,7 +425,7 @@ input {
       position: absolute;
       margin: 0 0 0 400px; }
     .good-seventh-section__wrapper_comments-descr {
-      margin: 568px 0 40px 200px;
+      margin: 568px 0 40px 50px;
       padding: 160px 0 40px 40px;
       width: 740px;
       border-color: #ffdf1b;
@@ -552,7 +556,8 @@ input {
   background-image: url(../src/img/goodyear-footer-bg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #ffdf1b; }
+  background-color: #ffdf1b;
+  background-size: auto 100%; }
   .good-footer__wrapper {
     width: 1000px;
     display: block;
