@@ -57,7 +57,8 @@ input {
       background-color: #fff;
       top: 660px;
       left: 50%;
-      margin: 0 0 0 -40px; }
+      margin: 0 0 0 -40px;
+      cursor: pointer; }
       .good-header__wrapper_arrow:after {
         content: "";
         width: 50px;
@@ -69,6 +70,8 @@ input {
         background-position: center;
         left: 15px;
         top: 5px; }
+      .good-header__wrapper_arrow:hover:after {
+        opacity: .6; }
 
 .good-second-section {
   width: 100%;
@@ -96,18 +99,19 @@ input {
       padding-left: 40px;
       margin: 0 0 350px 0;
       color: #6e6e6e; }
-    .good-second-section__wrapper_task-heading {
+    .good-second-section__wrapper .good-task-heading {
       float: right;
       margin: 0 0 20px 0; }
-      .good-second-section__wrapper_task-heading:before {
+      .good-second-section__wrapper .good-task-heading:before {
         content: "";
         background-image: url("../src/img/good-year-man-in-car.png");
         width: 413px;
         height: 413px;
         display: block;
         background-repeat: no-repeat;
-        margin: -150px -550px;
-        position: absolute; }
+        margin: -150px -665px;
+        position: absolute;
+        transition: 1s; }
     .good-second-section__wrapper_task-descr {
       border-color: #ffdf1b;
       width: 500px;
@@ -169,7 +173,9 @@ input {
     margin: auto;
     overflow: auto; }
     .good-fourth-section__wrapper_idea-heading {
-      margin: 30px 0 20px 40px; }
+      margin: 30px 0 20px 0px;
+      transition: 2s;
+      transition-timing-function: ease; }
       .good-fourth-section__wrapper_idea-heading:after {
         content: "";
         background-image: url(../src/img/goodyear-phone.png);
@@ -188,7 +194,8 @@ input {
       padding: 20px 100px 20px 40px; }
     .good-fourth-section__wrapper_realization-heading {
       float: right;
-      margin: 0 0 20px 0; }
+      margin: 0 0 20px 0;
+      padding: 0 50px 0 0; }
     .good-fourth-section__wrapper_realization-descr {
       border-color: #ffdf1b;
       width: 950px;
@@ -212,7 +219,11 @@ input {
           display: block;
           margin: auto;
           background-repeat: no-repeat;
-          background-position: center; }
+          background-position: center;
+          transition: .3s; }
+          .good-fourth-section__wrapper_block-with-icons .icons-block__icon:hover {
+            background-position: center 5px;
+            transition: .3s; }
         .good-fourth-section__wrapper_block-with-icons .icons-block__icon-heading {
           display: block;
           margin: 10px auto;
@@ -632,6 +643,7 @@ input {
     display: block;
     margin: 50px auto;
     text-align: center; }
+
   .descr-style {
     font-size: 30px;
     font-weight: 200;
@@ -647,10 +659,12 @@ input {
       display: inline-block;
       position: absolute;
       margin: 20px 0 0 15px; }
+
   .good-header {
     width: 100%; }
     .good-header__wrapper {
       width: 100%; }
+
   .good-second-section {
     width: 100%; }
     .good-second-section__wrapper {
@@ -683,6 +697,7 @@ input {
         display: block;
         margin: 50px auto;
         color: #6e6e6e; }
+
   .good-third-section {
     width: 100%;
     background-image: url("../src/img/goodyear-third-section-bg.png");
@@ -719,6 +734,7 @@ input {
           content: "ПРОБЛЕМА";
           font-size: 50px !important;
           margin: -55px 0; }
+
   .good-fourth-section {
     width: 100%; }
     .good-fourth-section__wrapper {
@@ -777,6 +793,7 @@ input {
             font-family: Proxima Nova,sans-serif;
             color: #6e6e6e;
             font-weight: 200; }
+
   .good-fifth-section {
     width: 100%;
     background-image: none; }
@@ -820,6 +837,7 @@ input {
           height: 45%; }
         .good-fifth-section__wrapper_images .goodyear-autumn:after {
           display: none; }
+
   .good-sixth-section {
     width: 100%; }
     .good-sixth-section__wrapper {
@@ -847,6 +865,7 @@ input {
         display: none; }
       .good-sixth-section__wrapper_second-row .goodyear-tips {
         display: none; }
+
   .good-seventh-section {
     width: 100%;
     background-position: center;
@@ -870,6 +889,7 @@ input {
           font-size: 50px;
           margin: -104px 0;
           line-height: 47px; }
+
   .good-stats-section {
     width: 100%; }
     .good-stats-section__wrapper {
@@ -965,6 +985,7 @@ input {
                   left: 91px;
                   transition: .3s;
                   transform: rotate(180deg); }
+
   .good-footer {
     width: 100%;
     display: block;
@@ -1023,3 +1044,5 @@ input {
         margin: auto;
         font-size: 10px;
         text-align: center; } }
+
+/*# sourceMappingURL=styles.css.map */

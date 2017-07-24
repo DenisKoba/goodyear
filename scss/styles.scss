@@ -61,6 +61,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
       top: 660px;
       left: 50%;
       margin: 0 0 0 -40px;
+      cursor: pointer;
 
       &:after {
         content: "";
@@ -73,6 +74,9 @@ input {-webkit-appearance: none; box-shadow: none !important; }
         background-position: center;
         left: 15px;
         top: 5px;
+      }
+      &:hover:after{
+        opacity: .6;
       }
     }
   }
@@ -113,7 +117,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
       color: #6e6e6e;
     }
 
-    &_task-heading{
+    .good-task-heading{
       float: right;
       margin: 0 0 20px 0;
 
@@ -124,8 +128,9 @@ input {-webkit-appearance: none; box-shadow: none !important; }
         height: 413px;
         display: block;
         background-repeat: no-repeat;
-        margin: -150px -550px;
+        margin: -150px -665px;
         position: absolute;
+        transition: 1s;
       }
     }
 
@@ -206,7 +211,9 @@ input {-webkit-appearance: none; box-shadow: none !important; }
     overflow: auto;
 
     &_idea-heading{
-      margin: 30px 0 20px 40px;
+      margin: 30px 0 20px 0px;
+      transition: 2s;
+      transition-timing-function: ease;
 
       &:after{
         content: "";
@@ -232,6 +239,7 @@ input {-webkit-appearance: none; box-shadow: none !important; }
     &_realization-heading{
       float: right;
       margin: 0 0 20px 0;
+      padding: 0 50px 0 0;
     }
 
     &_realization-descr{
@@ -263,6 +271,11 @@ input {-webkit-appearance: none; box-shadow: none !important; }
           margin: auto;
           background-repeat: no-repeat;
           background-position: center;
+          transition: .3s;
+          &:hover{
+            background-position: center 5px;
+            transition: .3s;
+          }
         }
 
         &__icon-heading{
@@ -1389,6 +1402,4 @@ input {-webkit-appearance: none; box-shadow: none !important; }
       }
     }
   }
-
 }
-
